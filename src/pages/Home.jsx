@@ -22,7 +22,8 @@ import Footer from "../components/Footer";
 import portrait from "../assets/sylvanus-portrait.png";
 import cv from "../assets/Sylvanus-Anang-CV.pdf";
 
-const skills = [
+
+  const skills = [
   {
     name: "HTML5",
     category: "Structure",
@@ -38,46 +39,65 @@ const skills = [
   {
     name: "JavaScript",
     category: "Programming",
-    description: "Adding interactivity and dynamic functionality.",
+    description: "Building interactive and dynamic web applications.",
     icon: Braces,
   },
   {
     name: "React",
     category: "Frontend",
-    description: "Building reusable components and interactive apps.",
+    description: "Building reusable components and interactive applications.",
     icon: Code2,
   },
   {
-    name: "React Router",
-    category: "Navigation",
-    description: "Creating smooth multi-page application experiences.",
+    name: "Node.js",
+    category: "Backend",
+    description: "Building server-side applications and backend services.",
+    icon: Code2,
+  },
+  {
+    name: "Express.js",
+    category: "Backend",
+    description: "Creating REST APIs and server-side application logic.",
     icon: Route,
+  },
+  {
+    name: "PostgreSQL",
+    category: "Database",
+    description: "Working with relational databases and structured data.",
+    icon: Database,
   },
   {
     name: "Supabase",
     category: "Backend services",
-    description: "Working with authentication and database services.",
+    description: "Working with authentication, databases and backend services.",
     icon: Database,
   },
   {
     name: "REST APIs",
     category: "Integration",
-    description: "Fetching and displaying data from external APIs.",
+    description: "Designing and integrating APIs for full-stack applications.",
+    icon: Globe,
+  },
+  {
+    name: "AWS",
+    category: "Cloud",
+    description: "Learning and working with cloud infrastructure and services.",
     icon: Globe,
   },
   {
     name: "Git & GitHub",
     category: "Version control",
-    description: "Managing code and collaborating through repositories.",
+    description: "Managing code, branches and projects through repositories.",
     icon: GitBranch,
   },
   {
     name: "Responsive Design",
     category: "User experience",
-    description: "Making websites work across different screen sizes.",
+    description: "Building interfaces that work across different screen sizes.",
     icon: Smartphone,
   },
 ];
+
 
 function Home() {
   return (
@@ -108,10 +128,10 @@ function Home() {
               </h1>
 
               <p className="hero-description">
-                I'm a frontend developer passionate about creating
+                I'm a full-stack developer passionate about creating
                 beautiful, responsive, and user-friendly web
-                experiences. I turn ideas into products people
-                enjoy using.
+                experiences. I build complete applications from
+                the interface to the backend, database, and APIs.
               </p>
 
               <div className="hero-actions">
@@ -166,7 +186,7 @@ function Home() {
                   <Code2 size={21} />
                 </div>
                 <div>
-                  <strong>Frontend Developer</strong>
+                  <strong>Full-stack Developer</strong>
                   <span>Building for the web</span>
                 </div>
               </motion.div>
@@ -216,12 +236,13 @@ function Home() {
 
               <div className="about-text">
                 <p className="about-intro">
-                  I'm Sylvanus, a frontend developer who enjoys
-                  turning ideas into useful digital experiences.
+                  I'm Sylvanus, a full-stack developer who enjoys
+                  turning ideas into useful digital experiences that solves problems
                 </p>
 
                 <p>
-                  I work with HTML, CSS, JavaScript and React to
+                  I work with HTML, CSS, JavaScript, React  Node.js 
+                  , Express.js and AWS to
                   build responsive websites and applications.
                   I care about the details — from how a page looks
                   to how it feels when someone uses it.

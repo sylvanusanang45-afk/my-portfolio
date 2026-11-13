@@ -1,8 +1,8 @@
-
 import { motion } from "motion/react";
 import { ArrowUpRight, GitBranch, ExternalLink } from "lucide-react";
 
 import novacartPreview from "../assets/novacart-preview.png";
+import humanizerPreview from "../assets/humanizer-preview.png";
 import todoPreview from "../assets/todo-preview.png";
 
 const projects = [
@@ -20,6 +20,18 @@ const projects = [
   },
   {
     number: "02",
+    name: "Humanizer",
+    category: "AI WRITING ASSISTANT",
+    description:
+      "An AI-powered writing application that helps users humanize text, analyze their writing voice, and manage their writing history.",
+    image: humanizerPreview,
+    technologies: ["React", "Express.js", "Supabase", "Gemini AI"],
+    live: "https://humanizer-mu-eight.vercel.app",
+    github: "https://github.com/sylvanusanang45-afk/humanizer",
+    featured: false,
+  },
+  {
+    number: "03",
     name: "Todo App",
     category: "TASK MANAGEMENT",
     description:
@@ -74,6 +86,7 @@ function Projects() {
                     <span />
                     <span />
                   </div>
+
                   <span className="browser-label">
                     {project.name}
                   </span>
